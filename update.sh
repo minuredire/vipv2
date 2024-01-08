@@ -34,9 +34,9 @@ res1() {
     chmod +x menu/*
     enc menu/*
     mv menu/* /usr/local/sbin    
-    #unzip menu.zip
-    #chmod +x menu/*
-    #mv menu/* /usr/local/sbin
+    unzip menu.zip
+    chmod +x menu/*
+    mv menu/* /usr/local/sbin
     rm -rf menu.zip
     rm -rf update.sh
     wget -qO- fv-tunnel "https://raw.githubusercontent.com/minuredire/vipv2/main/config/fv-tunnel" 
